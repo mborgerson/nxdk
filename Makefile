@@ -147,4 +147,4 @@ distclean: clean
 	$(VE)bash -c "if [ -d $(OUTPUT_DIR) ]; then rmdir $(OUTPUT_DIR); fi"
 	$(VE)rm -f $(DEPS)
 
--include $(DEPS)
+#-include $(DEPS)

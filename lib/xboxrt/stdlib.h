@@ -14,4 +14,8 @@ void free(void *ptr);
 void *calloc(size_t count, size_t size);
 void *realloc(void *ptr, size_t size);
 
+long strtol(const char *str, char **endptr, int base);
+char * getenv(const char *name);
+void qsort(void *base, size_t nel, size_t width, int (*compar)(const void *, const void *));
+
 #endif

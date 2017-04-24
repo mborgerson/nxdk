@@ -8,3 +8,6 @@
 	path = lib/sdl/SDL2
 	url = https://github.com/mborgerson/nxdk-sdl.git
 	branch = nxdk
+[submodule "lib/sdl/SDL_ttf"]
+	path = lib/sdl/SDL_ttf
+	url = https://github.com/SDL-mirror/SDL_ttf
